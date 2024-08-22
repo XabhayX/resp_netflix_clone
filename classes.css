@@ -1086,7 +1086,7 @@ display: flex;
 text-align: center;
 width: 90%; 
 height: 40%;
-background-color: blue;
+/* background-color: blue; */
 margin-left: 30px;
 
 }

@@ -3,6 +3,11 @@
         rotate: 360deg;
     }
  }
+
+video, img{ 
+    user-select: none;
+}
+
 body::-webkit-scrollbar{
     background: black;
     width: 4px;

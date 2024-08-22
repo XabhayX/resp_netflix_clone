@@ -470,9 +470,7 @@ font-weight: 100;
        background-color: rgba(255, 0, 0, 0.893);
 
     }
-     .qa .questions div:active{
-        background-color: rgba(255, 0, 0, 0.7);
-     }
+
      .page6 p{
         font-size:calc(0.7vw + 10px) ;
      }

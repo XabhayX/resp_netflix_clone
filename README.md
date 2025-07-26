@@ -9,7 +9,6 @@ THIS PAGE WAS MADE AS A PERSONAL EDUCATIONAL PROJECT. This is NOT the official s
 yet another clone of netflix.in landing page
 - added responsiveness
 - non functional
-- *no JS used
+- *no/little JS used
 - *glitchy (espclly the FAQ section)  (on mobile)
-- blank spaces
-- no dropdowns
+

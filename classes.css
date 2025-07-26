@@ -109,7 +109,7 @@ html, body{
     /* height: calc(75% + 25vw); */
     width: 100%;
     flex-direction: column;
-    background: url('newbg.jpg');
+    background: url('bg.jpg');
     background-size: cover;
     background-size: 130vw;
     background-position: center;
@@ -241,7 +241,7 @@ nav{
 }
 .page2 video{
     position: absolute;
-background: yellow;
+/* background: yellow; */
 z-index: 1;
 width: 30vw;
 }

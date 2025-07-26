@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disclaimer - Oldfix</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background-color: #121212;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        .disclaimer-container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #1e1e1e;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+        }
+        h1 {
+            color: #e50914;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 16px;
+        }
+        a.back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #e50914;
+            text-decoration: none;
+        }
+        a.back-link:hover {
+            text-decoration: underline;
+        }
+
+        button[onclick="goToSite()"]{
+            padding: 15px 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="disclaimer-container">
+        <h1>Disclaimer</h1>
+        <p><strong>DISCLAIMER:</strong> THIS PAGE WAS MADE AS A PERSONAL EDUCATIONAL PROJECT. This is NOT the official site of the company or brand identified on the page. The creator of this page is NOT affiliated with the company or brand in any way. This page is a personal project made in connection with an educational exercise.</p>
+
+        <p>All product names, logos, and brands are the property of their respective owners. All company, product, and service names used in this project are for educational purposes only. Use of these names, logos, and brands does not imply endorsement.</p>
+
+        <p>All images and videos used are either:
+            <ul>
+                <li>Original content created for this project</li>
+                <li>Modified content for educational use under fair use principles</li>
+                <li>Free and open-source media licensed for use</li>
+            </ul>
+        </p>
+
+        <p>If any copyright holder or brand owner has concerns regarding the use of their material, please contact the creator and the material will be removed or revised promptly.</p>
+
+    <button onclick="goToSite()" style="margin-top: 20px;">Continue to Site</button>
+        
+    </div>
+
+
+
+<script>
+  function goToSite() {
+    sessionStorage.setItem("disclaimerSeen", "true");
+    window.location.href = "index.html";
+  }
+</script>
+
+
+
+</body>
+</html>
